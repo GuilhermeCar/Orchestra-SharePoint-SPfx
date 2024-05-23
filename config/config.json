@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "orchestra-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/orchestra/OrchestraWebPart.js",
+          "manifest": "./src/webparts/orchestra/OrchestraWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OrchestraWebPartStrings": "lib/webparts/orchestra/loc/{locale}.js"
+  }
+}
